@@ -1,0 +1,19 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="CouponsProjectFinal:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/CouponsProjectFinal_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="CouponsProjectFinal/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="CouponsProjectFinal" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="application" name="jars_this_code_sample_uses" />
+          <element id="library" level="project" name="junit4" />
+          <element id="library" level="project" name="mockTestServlet" />
+          <element id="library" level="project" name="mockrunner-jdk1.6-j2ee1.3-0.4" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

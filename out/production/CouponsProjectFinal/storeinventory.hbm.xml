@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="Model.Coupon" table="coupons">
+		<id name="id" type="int" column="id" >
+			
+		</id>
+		<property name="name" column ="name" type="java.lang.String"/>
+
+		<property name="price" column="price" type="double"/>
+
+		<property name="date" column="date" type = "java.lang.String" />
+
+		<property name="category" column="Category" type = "java.lang.String" />
+
+		<property name="description" column="Description" type = "java.lang.String" />
+
+		<property name="latitude" column="Latitude" type="java.lang.String" />
+
+		<property name="longitude" column="Longitude" type="java.lang.String"></property>
+	</class>
+
+	<class name ="Model.AdminLogin"  table="useradmin">
+		<id name="Password" type="java.lang.String" column="Password" >
+
+		</id>
+		<property name="Name" column ="AdminName" type="java.lang.String"/>
+	</class>
+</hibernate-mapping>

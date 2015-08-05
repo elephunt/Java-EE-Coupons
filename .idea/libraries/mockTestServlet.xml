@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="mockTestServlet">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/libs/mockTestServlet" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+    <jarDirectory url="file://$PROJECT_DIR$/libs/mockTestServlet" recursive="false" />
+  </library>
+</component>
